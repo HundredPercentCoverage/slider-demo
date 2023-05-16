@@ -1,0 +1,30 @@
+.track {
+  width: 100%;
+  background-color: lightgrey;
+  border-radius: 10px;
+  height: 15px;
+  position: relative;
+}
+
+.thumbLeft {
+  position: absolute;
+  width: 15px;
+  height: 25px;
+  background-color: blue;
+  border-radius: 5px;
+  cursor: pointer;
+  top: -5px;
+  transform: translateX(-50%);
+}
+
+.thumbRight {
+  position: absolute;
+  width: 15px;
+  height: 25px;
+  background-color: green;
+  border-radius: 5px;
+  cursor: pointer;
+  top: -5px;
+  left: 100%;
+  transform: translateX(-50%);
+}

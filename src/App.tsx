@@ -1,6 +1,7 @@
 import { FormEvent, useState } from 'react'
 import Slider from './components/Slider'
 import './App.css'
+import PointerSlider from './components/PointerSlider';
 
 function App() {
   const min = 0;
@@ -41,6 +42,8 @@ function App() {
 
   return (
     <div>
+      <h1>Sliders</h1>
+      <h2>Range</h2>
       <Slider
         lowerValue={lower}
         upperValue={upper}
@@ -52,6 +55,10 @@ function App() {
       />
       <p>Lower: {lower}</p>
       <p>Upper: {upper}</p>
+      <h2>Pointer Events</h2>
+      <div style={{ padding: '50px'}}>
+        <PointerSlider />
+      </div>
     </div>
   )
 }
