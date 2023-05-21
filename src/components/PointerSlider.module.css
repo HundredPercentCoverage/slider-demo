@@ -17,6 +17,18 @@
   transform: translateX(-50%);
 }
 
+.thumbCentre {
+  position: absolute;
+  width: 15px;
+  height: 25px;
+  background-color: red;
+  border-radius: 5px;
+  cursor: pointer;
+  top: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 .thumbRight {
   position: absolute;
   width: 15px;
